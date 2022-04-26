@@ -10,13 +10,13 @@ echo
 for vmn in {100..105}; do
 	qm shutdown ${vmn}
 	if [[ ${@} -eq 0 ]]; then
-    echo
+    		echo
 		echo "##### Shutdown sent successfully #####"
-    echo
+    		echo
 	else
-    echo
+    		echo
 		echo "##### Possible shutdown adventures... #####"
-    echo
+    		echo
 	fi
 done
 
